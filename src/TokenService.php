@@ -78,7 +78,7 @@ class TokenService
             throw new InvalidTokenException($e->getMessage());
         }
 
-        $this->validatePayload($payload, $region, $poolId);
+//        $this->validatePayload($payload, $region, $poolId);
 
         return $payload;
     }
